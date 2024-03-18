@@ -1,3 +1,5 @@
+# question 1
+
 file = open("nyc_weather.csv", "r")
 weather_data = []
 for line in file:
