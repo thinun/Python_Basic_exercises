@@ -10,7 +10,7 @@ for line in file:
         weather_data.append(temp)
     except ValueError:
         continue
-
+file.close()
 print(weather_data)
 
 seven_days_temperature = sum(weather_data[:7]) / 7
