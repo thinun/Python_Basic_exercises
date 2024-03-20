@@ -18,6 +18,12 @@ class Queue:
         else:
             return self.queue.pop()
 
+    def is_empty(self):
+        return len(self.queue) == 0
+
+    def size(self):
+        return len(self)
+
 
 def placing_order(order):
     for x in order:
