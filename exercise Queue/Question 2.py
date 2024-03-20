@@ -39,4 +39,5 @@ def binary(n):
         obj1.dequeue()
 
 
+
 binary(10)
