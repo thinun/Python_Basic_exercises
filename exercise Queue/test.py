@@ -1,45 +1,44 @@
-import time
 from collections import deque
 
-start_time = time.time()
 
 class Queue:
     def __init__(self):
-        self.queue = deque()
+        self.buffer = deque()
 
-    def enqueue(self, order):
-        self.queue.appendleft(order)
+    def enqueue(self, val):
+        self.buffer.appendleft(val)
 
     def dequeue(self):
-        if len(self.queue) == 0:
-            print("order is empty")
-            return None
-        else:
-            return self.queue.pop()
+        if len(self.buffer) == 0:
+            print("Queue is empty")
+            return
 
-def placing_order(order):
-    for item in order:
-        person_one.enqueue(item)
-        print("placing order for {}".format(item))
-        time.sleep(0.5)
+        return self.buffer.pop()
 
-def serving_order():
-    while True:
-        served_item = person_one.dequeue()
-        if served_item:
-            print("serving order for {}".format(served_item))
-            time.sleep(1)
-        else:
-            print("No orders left to serve")
-            break
+    def is_empty(self):
+        return len(self.buffer) == 0
 
-person_one = Queue()
+    def size(self):
+        return len(self.buffer)
 
-if __name__ == "__main__":
-    order = ['pizza', 'samosa', 'pasta', 'biryani', 'burger']
+    def front(self):
+        return self.buffer[-1]
 
-    placing_order(order)
-    serving_order()
 
-end_time = time.time()
-print("time: {}".format(end_time - start_time))
+numbers_queue = Queue()
+
+
+def produce_binary_numbers(n):
+    numbers_queue.enqueue("1")
+
+    for i in range(n):
+        front = numbers_queue.front()
+        print("   ", front)
+        numbers_queue.enqueue(front + "0")
+        numbers_queue.enqueue(front + "1")
+
+        numbers_queue.dequeue()
+
+
+if __name__ == '__main__':
+    produce_binary_numbers(10)
