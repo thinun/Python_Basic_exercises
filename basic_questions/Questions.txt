@@ -1,0 +1,2 @@
+1.Print the sum of the current number and the previous number
+2.Print characters from a string that are present at an even index number
