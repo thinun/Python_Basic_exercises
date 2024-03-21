@@ -3,3 +3,17 @@
 3.Write a program to remove characters from a string starting from zero up to n and return a new string.
 4. Check if the first and last number of a list is the same
 5.Display numbers divisible by 5 from a list
+6.Return the count of a given substring from a string
+7.Print the following pattern
+
+1 
+2 2 
+3 3 3 
+4 4 4 4 
+5 5 5 5 5
+
+8.Check Palindrome Number
+9.Given two list of numbers, write a program to create a new list such that the new list should contain odd numbers from the first list and even numbers from the second list.
+	list1 = [10, 20, 25, 30, 35]
+	list2 = [40, 45, 60, 75, 90]
+10.
