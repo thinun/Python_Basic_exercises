@@ -1,2 +1,5 @@
 1.Print the sum of the current number and the previous number
 2.Print characters from a string that are present at an even index number
+3.Write a program to remove characters from a string starting from zero up to n and return a new string.
+4. Check if the first and last number of a list is the same
+5.Display numbers divisible by 5 from a list
