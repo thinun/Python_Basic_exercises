@@ -24,3 +24,4 @@ Next $10,000	10
 The remaining	20
 12.Print multiplication table from 1 to 10
 13.Print a downward Half-Pyramid Pattern of Star (asterisk)
+14.Write a function called exponent(base, exp) that returns an int value of base raises to the power of exp.
