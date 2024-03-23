@@ -7,6 +7,8 @@ def user_income():
         return "Please enter your income in numbers!"
 
 
+
+
 def tax_cal(user_input):
     if user_input <= 10000:
         tax = user_input * 0
