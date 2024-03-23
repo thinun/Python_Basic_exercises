@@ -4,3 +4,7 @@ if user_name.replace(' ', '').isalpha():
     print('your new name is ' + new_name)
 else:
     print('Enter your name correctly!')
+
+
+
+
