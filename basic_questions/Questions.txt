@@ -16,4 +16,10 @@
 9.Given two list of numbers, write a program to create a new list such that the new list should contain odd numbers from the first list and even numbers from the second list.
 	list1 = [10, 20, 25, 30, 35]
 	list2 = [40, 45, 60, 75, 90]
-10.
+10.Write a Program to extract each digit from an integer in the reverse order.
+11.Calculate income tax for the given income by adhering to the rules below
+Taxable Income	Rate (in %)
+First $10,000	0
+Next $10,000	10
+The remaining	20
+12.

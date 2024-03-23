@@ -4,3 +4,4 @@ new_string = user_string.lower()
 
 count = new_string.count("emma")
 print('Emma appears {} times.'.format(count))
+
