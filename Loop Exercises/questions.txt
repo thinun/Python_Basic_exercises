@@ -7,3 +7,5 @@
 1 2 3 4 5
 
 3.Calculate the sum of all numbers from 1 to a given number
+4.Write a program to print multiplication table of a given number
+5.
