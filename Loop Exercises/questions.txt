@@ -27,4 +27,6 @@ numbers = [12, 75, 150, 180, 145, 525, 50]
 8.Print list in reverse order using a loop
 list1 = [10, 20, 30, 40, 50]
 
-9.
+9.Display numbers from -10 to -1 using for loop
+10.Use else block to display a message “Done” after successful execution of for loop
+
