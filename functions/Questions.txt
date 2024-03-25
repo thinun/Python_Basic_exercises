@@ -1,0 +1,16 @@
+1.Write a program to create a function that takes two arguments, name and age, and print their value.
+2.Write a program to create function func1() to accept a variable length of arguments and print their value.
+3.Write a program to create function calculation() such that it can accept two variables and calculate addition and subtraction. Also, it must return both addition and subtraction in a single return call.
+4.Write a program to create a function show_employee() using the following conditions.
+
+It should accept the employee’s name and salary and display both.
+If the salary is missing in the function call then assign default value 9000 to salary
+
+5.Create an outer function that will accept two parameters, a and b
+Create an inner function inside an outer function that will calculate the addition of a and b
+At last, an outer function will add 5 into addition and return it
+
+6.Write a program to create a recursive function to calculate the sum of numbers from 0 to 10.
+7.Assign a different name to function and call it through the new name
+8.Find the largest item from a given list
+x = [4, 6, 8, 24, 12, 2]
