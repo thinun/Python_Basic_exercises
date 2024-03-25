@@ -1,0 +1,35 @@
+1.Create a string made of the first, middle and last character
+
+Given: str1 = "James"
+Expected Output: Jms
+
+2.Write a program to create a new string made of the middle three characters of an input string.
+3.Append new string in the middle of a given string
+
+s1 = "Ault"
+s2 = "Kelly"
+
+Expected Output: AuKellylt
+
+4.Count all letters, digits, and special symbols from a given string
+Given: str1 = "P@#yn26at^&i5ve"
+
+5.Write a program to check if two strings are balanced. For example, strings s1 and s2 are balanced if all the characters in the s1 are present in s2. The character’s position doesn’t matter.
+6.Write a program to find all occurrences of “USA” in a given string ignoring the case.
+str1 = "Welcome to USA. usa awesome, isn't it?"
+
+7.Given a string s1, write a program to return the sum and average of the digits that appear in the string, ignoring all other characters.
+str1 = "PYnative29@#8496"
+
+8.Write a program to count occurrences of all characters within a string
+str1 = "Apple"
+
+9.Write a program to find the last position of a substring “Emma” in a given string.
+
+Given: str1 = "Emma is a data scientist who knows Python. Emma works at google."
+
+10.Write a program to split a given string on hyphens and display each substring.
+
+Given: str1 = Emma-is-a-data-scientist
+
+11.
